@@ -1,0 +1,519 @@
+@font-face {
+   font-family: 'Cormorant';
+   src: url('../font/Cormorant-Italic.eot');
+   src: url('../font/Cormorant-Italic.ttf');
+   src: url('../font/Cormorant-Italic.woff');
+   font-weight: 300;
+}
+
+@font-face {
+   font-family: 'Cormorant';
+   src: url('../font/Cormorant-SemiBoldItalic.eot');
+   src: url('../font/Cormorant-SemiBoldItalic.ttf');
+   src: url('../font/Cormorant-SemiBoldItalic.woff');
+   font-weight: 700;
+}
+
+html {
+   scroll-behavior: smooth;
+}
+
+body {
+   font-family: 'Cormorant';
+}
+
+.logo {
+   display: block;
+   width: 10%;
+   margin: 0 auto;
+}
+
+.logo__info {
+   text-align: center;
+   font-weight: 700;
+   font-size: 18px;
+   margin-top: -10px;
+}
+
+ul, li {
+   display: block;
+   padding: 0;
+   margin: 0;
+}
+
+.header {
+   background: url('../img/swarovski.jpg') 0 0/ 100%;
+   padding: 50px 20px;
+}
+
+.menu {
+   margin-top: 20px;
+}
+
+.menu__item {
+   white-space: nowrap;
+   margin:0 40px;
+}
+
+.menu__item a {
+   font-size: 26px;
+   font-weight: 700;
+   color: black;
+}
+
+.about {
+   padding: 70px 20px;
+   background: url('../img/фон2.jpg') 0 0/100%;
+}
+
+.offer__title {
+   color: black;
+   font-weight: 700;
+   margin-bottom: 20px;
+   margin-top: 50px;
+}
+
+.offer__text {
+   margin-top: 30px;
+   margin-bottom: 30px;
+   font-size: 22px;
+   text-align: justify;
+}
+
+.btn-outline-secondary {
+   margin-right: 30px;
+   font-weight: 700;
+   color: black;
+   font-size: larger;
+   border-radius: 120px 10px 120px 10px;
+}
+
+.about__img {
+   display: block;
+   margin: 0 auto;
+   width: 90%;
+   margin-top: 30px;
+   border-radius: 150px 10px 150px 10px;
+}
+
+.services {
+   background: url('../img/swarovski.jpg') 0 0/ 100%;
+   padding: 50px 20px;
+}
+
+.main__title {
+   margin-bottom: 50px;
+   font-size: 40px;
+}
+
+.card-title {
+   font-size: 26px;
+}
+
+.card-text {
+   font-size: 22px;
+   text-align: justify;
+}
+
+.card {
+   margin-bottom: 20px;
+}
+
+.card-body {
+   background: url('../img/swarovski.jpg') 0 0/ 100%;
+}
+
+.title {
+   color: black;
+   font-weight: 700;
+}
+
+.main__title {
+   text-align: center;
+}
+
+
+.portfolio {
+   background: url('../img/фон2.jpg') 0 0/100%;
+   padding: 50px 20px;
+}
+
+.portfolio__title {
+   text-align: center;
+   margin-bottom: 30px;
+}
+
+.carousel__subtitle {
+   color: black;
+   font-weight: 700;
+}
+
+.carousel__text {
+   color: black;
+   font-weight: 700;
+}
+
+.inform {
+   padding: 70px 20px;
+   background: url('../img/swarovski.jpg') 0 0/ 100%;
+}
+
+.inform__title {
+   text-align: center;
+   margin-bottom: 50px;
+}
+
+.inform__block {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.inform__map {
+   display: flex;
+   justify-content: center;
+}
+
+.inform__subtitle {
+   line-height: 50px;
+   font-size: 26px;
+   margin-right: 20px;
+}
+
+.inform__text {
+   line-height: 50px;
+   font-size: 26px;
+   
+}
+.inform__descr {
+   margin-left: 20px;
+}
+
+.footer__first {
+   background: url('../img/фон2.jpg') 0 0/100%;
+   padding: 50px 20px;
+}
+
+.footer__second {
+   display: none;
+}
+
+
+@media screen and (max-width: 992px) {
+
+   .header {
+      padding: 40px 20px;
+   }
+
+   .menu__item a {
+      font-size: 24px;
+
+   }
+   .about {
+      padding: 50px 10px;
+   }
+
+   .offer__title {
+      font-size: 30px;
+      margin-top: 30px;
+   }
+
+   .offer__text {
+      margin: 10px 0 20px;
+      font-size: 20px;
+   }
+
+   .about__img {
+      width: 95%;
+   }
+
+
+   .footer__second {
+      display: none;
+   }
+
+
+}
+
+@media screen and (max-width: 767px) {
+
+   .header {
+      padding: 100px 20px 0 20px;
+   }
+
+   .menu__item {
+      display: none;
+   }
+
+   .menu__items a {
+      font-size: 26px;
+      font-weight: 700;
+      color: black;
+      line-height: 60px;
+   }
+
+   .offer__title {
+      font-size: 28px;
+      text-align: center;
+      margin-bottom: 20px;
+      margin-top: 20px;
+   }
+
+   .about {
+      padding: 30px 20px;
+   }
+
+   .about__img {
+      display: none;
+   }
+
+   .btns {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+   }
+
+   .navbar {
+      background: url('../img/swarovski.jpg') 0 0/ 100%;
+      transition: all .6s;
+      backface-visibility: hidden;
+      box-shadow: 0 2px 5px 1px rgba(51, 51, 51, 0.3);
+  }
+   
+  .navbar-dark .navbar-nav {
+      font-size: 15px;
+      color: #444;
+      font-weight: 700;
+      line-height: 30px;
+  }
+   
+  .navbar-dark .navbar-nav .nav-link {
+      color: #444;
+      color: rgba(255, 255, 255, 0.3);
+      border: 0;
+  }
+   
+  .navbar-dark .navbar-nav .nav-link:hover {
+      color: #444;
+  }
+   
+  .navbar-dark .navbar-nav .nav-link:focus {
+      color: #444;
+      outline: 0;
+  }
+   
+  .navbar-dark .navbar-toggler {
+      border-color: #444;
+  }
+   
+  .navbar-dark .navbar-toggler:focus {
+      background: none;
+      outline: 0;
+  }
+   
+  .navbar-dark .navbar-toggler span {
+      display: block;
+      width: 30px;
+      height: 2px;
+      margin: 6px auto;
+      background:#444;
+      transition: all .6s cubic-bezier(0.250, 0.100, 0.250, 1.000);
+  }
+   
+  .navbar-dark .navbar-toggler:hover span,
+  .navbar-dark .navbar-toggler:focus span {
+      background: #444;
+  }
+   
+  /* rotate first span */
+  .navbar-dark .navbar-toggler[aria-expanded="true"] span:first-of-type {
+      transform: rotate(45deg) translate(6px, 6px);
+  }
+   
+  /* hide second span */
+  .navbar-dark .navbar-toggler[aria-expanded="true"] span:nth-of-type(2) {
+      opacity: 0;
+  }
+   
+  /* rotate third span */
+  .navbar-dark .navbar-toggler[aria-expanded="true"] span:last-of-type {
+      transform: rotate(-45deg) translate(5px, -5px);
+  }
+   
+  .navbar-dark .navbar-toggler[aria-expanded="false"] span {
+      transform: none;
+      opacity: 1;
+  }
+   
+  .navbar-brand {
+      width: 162px;
+      height: 44px;
+      background: url(../img/logo.png) left center no-repeat;
+      border: 0;
+      text-indent: -99999px;
+  }
+  
+  .navbar-dark .navbar-toggler span {
+      display: block;
+      width: 30px;
+      height: 2px;
+      margin: 6px auto;
+      background: #444;
+  }
+  
+ 
+  /* hide second span */
+  .navbar-dark .navbar-toggler[aria-expanded="true"] span:nth-of-type(2) {
+      opacity: 0;
+  }
+   
+  /* rotate third span */
+  .navbar-dark .navbar-toggler[aria-expanded="true"] span:last-of-type {
+      transform: rotate(-45deg) translate(5px, -5px);
+  }
+  
+  .navbar-dark .navbar-toggler[aria-expanded="false"] span {
+      transform: none;
+      opacity: 1;
+  }
+
+  .nav-link scroll-link {
+      color: #444;
+  }
+
+   .main__title {
+     font-size: 28px;
+   }
+
+
+   .portfolio {
+      padding: 40px 20px;
+   }
+
+   .portfolio__title {
+      font-size: 28px;
+   }
+
+   .carousel {
+      display: block;
+      width: 80%;
+      margin: 0 auto;
+   }
+
+   .inform {
+      padding: 20px;
+   }
+
+   .inform__title {
+      font-size: 28px;
+      margin-bottom: 40px;
+   }
+
+   .inform__subtitle {
+      font-size: 24px;
+   }
+
+   .inform__text {
+      font-size: 24px;
+   }
+
+   .footer__first {
+      display: none;
+   }
+   
+   .footer__second {
+      display: flex;
+      background: url('../img/фон2.jpg') 0 0/100%;
+      padding: 40px 10px;
+   }
+
+   .hr {
+      border: none;
+      border-top: 2px solid #999999;
+      width: 1024px;
+      margin: 0 auto;
+      margin-bottom: 20px;
+   }
+
+   .menu__itemf {
+      white-space: nowrap;
+      margin: 0 20px;
+   }
+
+   .map {
+      width: 350px;
+      height: 300px;
+   }
+   
+   .menu__itemf a {
+      font-size: 22px;
+      font-weight: 700;
+      color: black;
+      line-height: 50px;
+   }
+   
+}
+
+@media screen and (max-width: 576px) {
+
+   .about__img {
+      display: none;
+   }
+
+   .inform__subtitle {
+      font-size: 22px;
+      margin-top: 20px;
+   }
+
+   .inform__text {
+      font-size: 22px;
+   }
+
+   .inform__map {
+      display: block;
+   }
+
+   .map {
+      width: 250px;
+      height: 200px;
+   }
+
+   .btns {
+      margin-left: 20px;
+   }
+
+   .footer__second {
+      padding: 20px;
+   }
+
+   .menu__itemf a {
+      font-size: 18px;
+      font-weight: 700;
+      color: black;
+      line-height: 40px;
+   }
+
+   .card-title {
+      font-size: 24px;
+   }
+
+   .card-text {
+      font-size: 20px;
+   }
+
+}
+
+@media screen and (max-width: 450px) {
+
+   .logo {
+      width: 20%;
+   }
+
+}
+
+@media screen and (max-width: 300px) {
+   .btn {
+      display: none;
+   }
+
+}
